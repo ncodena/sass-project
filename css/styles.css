@@ -129,6 +129,9 @@ section h1 {
   margin: 60px 0;
 }
 
+#services .wrapper {
+  padding: 55px 20px;
+}
 #services li {
   float: left;
   box-sizing: border-box;
@@ -153,6 +156,9 @@ section h1 {
   clear: both;
 }
 
+#projects .wrapper {
+  padding: 55px 20px;
+}
 #projects li {
   float: left;
   margin-right: 4%;

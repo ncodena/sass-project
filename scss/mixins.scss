@@ -27,6 +27,12 @@
         }
 }
 
+@mixin margin {
+    .wrapper {
+        padding: 55px 20px;
+    }
+}
+
 @mixin clearfix{
     &:after{
         content: "";

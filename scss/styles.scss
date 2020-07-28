@@ -27,7 +27,9 @@
     }
 }
 
-
+// .wrapper {
+//     padding: 55px 20px;
+// }
 section h1 {
     font-size: $sectionHeading;
     color: $deepBlue;
@@ -49,6 +51,7 @@ section h1 {
 }
 
 #services{
+    @include margin;
     li{
         float: left;
         box-sizing: border-box;
@@ -72,9 +75,13 @@ section h1 {
     }
 }
 
-#projects li{
-    @include grid(6, 4%);
-    img{
-        width: 100%;
+#projects {
+    @include margin;
+
+    li{
+        @include grid(6, 4%);
+        img{
+            width: 100%;
     }
+}
 }
